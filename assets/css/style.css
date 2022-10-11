@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: "Motif";
-    src: url("https://cdn.glitch.global/2dad70a7-031e-44d8-946b-3759b56f9a5e/Motif-Light.woff2?v=1658852072113") format("woff2"),
-         url("https://cdn.glitch.global/2dad70a7-031e-44d8-946b-3759b56f9a5e/Motif-Light.woff?v=1658852064529") format("woff");
+    src: url("/assets/fonts/Motif-Light.woff2") format("woff2"),
+         url("/assets/fonts/Motif-Light.woff") format("woff");
     font-weight: 300;
     font-style: normal;
 }

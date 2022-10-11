@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Motif";
+    src: url("https://cdn.glitch.global/2dad70a7-031e-44d8-946b-3759b56f9a5e/Motif-Light.woff2?v=1658852072113") format("woff2"),
+         url("https://cdn.glitch.global/2dad70a7-031e-44d8-946b-3759b56f9a5e/Motif-Light.woff?v=1658852064529") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Motif", sans-serif;
+  font-size: 100%;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+
+@media (min-width: 1260px) {
+    html {
+        font-size: ;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color:currentColor;
+}
+
+small {
+  font-size: 75%;
+}
+
+.disclaimer {
+  font-size: 75%;
+  line-height: 1.1;
+  margin-top: 6vw;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2.5vw;
+  font-size: 120%;
+  z-index: 90;
+}
+
+@media (min-width: 1260px) {
+    header {
+        font-size: 150%;
+    }
+}
+
+header p {
+  
+}
+
+header section {
+  padding-right: 1.6vw;
+  width: 100%;
+}
+
+header a {
+  z-index: 100;
+}
+
+.rest {
+}
+
+@media (max-width: 640px) { header section {
+  width: 100%;
+}
+
+}
+
+.ko {
+}
+
+.fadeout {
+  transition: .8s;
+}
+
+.contact {
+  
+}
+
+@media (max-width: 640px) { .contact {
+  
+}
+
+}
+
+nav {
+  margin-top: 3.3333vw;
+}
+
+nav p {
+  margin: 0 0 55vw;
+  max-width: 30vw;
+}
+
+main {
+  margin-top: 42.2222vh;
+  position: relative;
+}
+
+@media (max-width: 640px) { main {
+  margin-top: 23.3333vh;
+}
+
+}
+
+main #gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+figure {
+	max-width: 100%;
+	position: relative;
+  display: inline-block;
+	vertical-align: top;
+  text-align: left;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+main figure img {
+  margin-top: 13.33333vh;
+}
+
+figcaption {
+  margin: .5vw .0vw .0vw .0vw;
+  font-size: 75%;
+}
+
+@media (max-width: 640px) { main figure {
+  width: 100%;
+  margin: .0vw 5vw .0vw 5vw;
+}
+
+}
+
+@media (max-width: 640px) { figcaption {
+  margin: .5vw .0vw .0vw .5vw;
+}
+
+}
+
+.small {
+  width: 19vw;
+  margin: .0vw vw .0vw vw;
+}
+
+.medium {
+  width: 26vw;
+  margin: .0vw vw .0vw vw;
+}
+
+.large {
+  width: 40vw;
+  margin: .0vw vw .0vw vw;
+}
+
+.extra-large {
+  width: 53vw;
+  margin: .0vw vw .0vw vw;
+}
+
+.extra-extra-large {
+  width: 75vw;
+  margin: .0vw vw .0vw vw;
+}
+
+@media (max-width: 640px) { .extra-large figcaption, .extra-extra-large figcaption {
+  margin: .5vw .0vw .0vw 5vw;
+}
+
+}
+
+@media (max-width: 640px) { .medium, .small {
+  width: 66.666666666vw;
+  margin: .0vw 5vw .0vw 5vw;
+}
+
+}
+
+@media (max-width: 640px) { .large {
+  width: 75vw;
+  margin: .0vw 5vw .0vw 5vw;
+}
+
+}
+
+@media (max-width: 640px) { .extra-large, .extra-extra-large {
+  width: 100vw;
+  margin: .0vw .0vw .0vw .0vw;
+}
+
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  padding: 35vh 2.5vw 2.5vw 2.5vw;
+}
+
+@media (max-width: 640px) { footer {
+  
+}
+
+}
+
+footer div {
+  
+}
+
+.nav {
+  padding-bottom: 10vw;
+}
+
+@media (max-width: 640px) { .nav {
+  padding-bottom: 23vw;
+}
+
+}
+
+.selected {
+  font-size: 200%;
+}
+
+@media (max-width: 640px) { .selected {
+
+  }
+
+}
+
+/* fade image in after load */
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 600ms;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.column {
+  width: 30%;
+}
+
+@media screen and (max-width: 640px) {
+  .column {
+    width: 100%;
+  }
+}
